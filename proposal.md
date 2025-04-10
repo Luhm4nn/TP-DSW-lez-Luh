@@ -6,9 +6,8 @@
 * 53224 - Luhmann, Emiliano
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [fullstack app]([http://hyperlinkToGihubOrGitlab](https://github.com/Luhm4nn/RepoFullStack))
+
 
 ## Tema
 Sistema de Reservas de Funciones para Cine (ButacaLibre)
@@ -16,7 +15,7 @@ Sistema de Reservas de Funciones para Cine (ButacaLibre)
 Plataforma web que permite a los usuarios consultar la cartelera de películas en exhibición, seleccionar funciones específicas, visualizar la disponibilidad de asientos y realizar reservas para asistir a proyecciones cinematográficas.
 
 ### Modelo
-![imagen del modelo]()
+![imagen del modelo](https://drive.google.com/file/d/1nxexQGKn5xmwuoYc4T9Xb4wF_jnmdBWZ/view?usp=sharing)
 
 
 ## Alcance Funcional 
@@ -26,7 +25,7 @@ Plataforma web que permite a los usuarios consultar la cartelera de películas e
 Alcance Mínimo para Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUDsimple|1. CRUD Sala (Integrante 1)<br>2. CRUD Película (Integrante 2)|
+|CRUDsimple|1. CRUD Sala <br>2. CRUD Película|
 |CRUD dependiente|1. CRUD Función {depende de} CRUD Sala y CRUD Película|
 |Listado + detalle|1. Listado de funciones filtrado por película y/o fecha, muestra título, sala, fecha y hora => detalle CRUD Función|
 |CUU/Epic|1. Selección y reserva de asientos para una función específica|
@@ -40,11 +39,9 @@ Adicionales para Aprobación:
 
 ### Alcance Adicional Voluntario
 
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
-
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Reporte de ventas filtrado por película y rango de fechas<br>3. Listado de películas más populares basado en reservas|
-|CUU/Epic|1. Envío de tickets por email<br>2. Generación de código QR para validación de entrada|
+|Listados |1. Reporte de ventas filtrado por película y rango de fechas<br>2. Listado de películas más populares basado en reservas|
+|CUU/Epic|1. Sistema de calificación y comentarios para películas<br>|
 |Otros|1. Envío de tickets por email<br>2. Generación de código QR para validación de entrada|
 
