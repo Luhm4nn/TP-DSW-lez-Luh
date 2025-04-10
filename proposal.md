@@ -26,10 +26,16 @@ Plataforma web que permite a los usuarios consultar la cartelera de películas e
 Alcance Mínimo para Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUDsimple|1. CRUD Sala (Integrante 1)<br>2. CRUD Película (Integrante 2)CRUD dependiente1. CRUD Función {depende de} CRUD Sala y CRUD PelículaListado + detalle1. Listado de funciones filtrado por película y/o fecha, muestra título, sala, fecha y hora => detalle CRUD FunciónCUU/Epic1. Selección y reserva de asientos para una función específica|
+|CRUDsimple|1. CRUD Sala (Integrante 1)<br>2. CRUD Película (Integrante 2)|
+|CRUD dependiente|1. CRUD Función {depende de} CRUD Sala y CRUD Película|
+|Listado + detalle|1. Listado de funciones filtrado por película y/o fecha, muestra título, sala, fecha y hora => detalle CRUD Función|
+|CUU/Epic|1. Selección y reserva de asientos para una función específica|
+
 Adicionales para Aprobación:
 |Req|Detalle|
-|CRUD|1. CRUD Sala<br>2. CRUD Película<br>3. CRUD Cliente<br>4. CRUD Función<br>5. CRUD Asiento<br>6. CRUD Reserva<br>7. CRUD Asiento_ReservaCUU/Epic1. Gestión de cartelera y programación de funciones (Integrante 1): Sistema para crear y administrar las proyecciones de películas en diferentes salas y horarios<br>2. Proceso de reserva y pago de entradas (Integrante 2): Flujo completo donde el cliente selecciona función, asientos y realiza el pago|
+|:-|:-|
+|CRUD|1. CRUD Sala<br>2. CRUD Película<br>3. CRUD Cliente<br>4. CRUD Función<br>5. CRUD Asiento<br>6. CRUD Reserva<br>7. CRUD Asiento_Reserva|
+|CUU/Epic|1. Gestión de cartelera y programación de funciones: Sistema para crear y administrar las proyecciones de películas en diferentes salas y horarios<br>2. Proceso de reserva y pago de entradas: Flujo completo donde el cliente selecciona función, asientos y realiza el pago|
 
 
 ### Alcance Adicional Voluntario
@@ -38,7 +44,7 @@ Adicionales para Aprobación:
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Reporte de ventas filtrado por película y rango de fechas<br>3. Listado de películas más populares basado en reservas|
+|CUU/Epic|1. Envío de tickets por email<br>2. Generación de código QR para validación de entrada|
+|Otros|1. Envío de tickets por email<br>2. Generación de código QR para validación de entrada|
 
