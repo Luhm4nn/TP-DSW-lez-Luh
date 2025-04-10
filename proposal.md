@@ -18,16 +18,18 @@ Plataforma web que permite a los usuarios consultar la cartelera de películas e
 ### Modelo
 ![imagen del modelo]()
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
 ## Alcance Funcional 
 
 ### Alcance Mínimo
 
 Alcance Mínimo para Regularidad:
-|ReqDetalleCRUD| simple1. CRUD Sala (Integrante 1)<br>2. CRUD Película (Integrante 2)CRUD dependiente1. CRUD Función {depende de} CRUD Sala y CRUD PelículaListado + detalle1. Listado de funciones filtrado por película y/o fecha, muestra título, sala, fecha y hora => detalle CRUD FunciónCUU/Epic1. Selección y reserva de asientos para una función específica
+|Req|Detalle|
+|:-|:-|
+|CRUDsimple|1. CRUD Sala (Integrante 1)<br>2. CRUD Película (Integrante 2)CRUD dependiente1. CRUD Función {depende de} CRUD Sala y CRUD PelículaListado + detalle1. Listado de funciones filtrado por película y/o fecha, muestra título, sala, fecha y hora => detalle CRUD FunciónCUU/Epic1. Selección y reserva de asientos para una función específica|
 Adicionales para Aprobación:
-|ReqDetalleCRUD1|. CRUD Sala<br>2. CRUD Película<br>3. CRUD Cliente<br>4. CRUD Función<br>5. CRUD Asiento<br>6. CRUD Reserva<br>7. CRUD Asiento_ReservaCUU/Epic1. Gestión de cartelera y programación de funciones (Integrante 1): Sistema para crear y administrar las proyecciones de películas en diferentes salas y horarios<br>2. Proceso de reserva y pago de entradas (Integrante 2): Flujo completo donde el cliente selecciona función, asientos y realiza el pago
+|Req|Detalle|
+|CRUD|1. CRUD Sala<br>2. CRUD Película<br>3. CRUD Cliente<br>4. CRUD Función<br>5. CRUD Asiento<br>6. CRUD Reserva<br>7. CRUD Asiento_ReservaCUU/Epic1. Gestión de cartelera y programación de funciones (Integrante 1): Sistema para crear y administrar las proyecciones de películas en diferentes salas y horarios<br>2. Proceso de reserva y pago de entradas (Integrante 2): Flujo completo donde el cliente selecciona función, asientos y realiza el pago|
 
 
 ### Alcance Adicional Voluntario
