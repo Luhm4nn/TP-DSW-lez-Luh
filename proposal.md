@@ -2,7 +2,8 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 53215 - Lezcano, Diego
+* 53224 - Luhmann, Emiliano
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
@@ -10,8 +11,9 @@
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
+Sistema de Reservas de Funciones para Cine (ButacaLibre)
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Plataforma web que permite a los usuarios consultar la cartelera de películas en exhibición, seleccionar funciones específicas, visualizar la disponibilidad de asientos y realizar reservas para asistir a proyecciones cinematográficas.
 
 ### Modelo
 ![imagen del modelo]()
@@ -22,22 +24,10 @@
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
-Regularidad:
-|Req|Detalle|
-|:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
-
-
-Adicionales para Aprobación
-|Req|Detalle|
-|:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+Alcance Mínimo para Regularidad:
+ReqDetalleCRUD simple1. CRUD Sala (Integrante 1)<br>2. CRUD Película (Integrante 2)CRUD dependiente1. CRUD Función {depende de} CRUD Sala y CRUD PelículaListado + detalle1. Listado de funciones filtrado por película y/o fecha, muestra título, sala, fecha y hora => detalle CRUD FunciónCUU/Epic1. Selección y reserva de asientos para una función específica
+Adicionales para Aprobación:
+ReqDetalleCRUD1. CRUD Sala<br>2. CRUD Película<br>3. CRUD Cliente<br>4. CRUD Función<br>5. CRUD Asiento<br>6. CRUD Reserva<br>7. CRUD Asiento_ReservaCUU/Epic1. Gestión de cartelera y programación de funciones (Integrante 1): Sistema para crear y administrar las proyecciones de películas en diferentes salas y horarios<br>2. Proceso de reserva y pago de entradas (Integrante 2): Flujo completo donde el cliente selecciona función, asientos y realiza el pago
 
 
 ### Alcance Adicional Voluntario
