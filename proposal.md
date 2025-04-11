@@ -13,10 +13,10 @@
 ## Tema
 Sistema de Reservas de Funciones para Cine (ButacaLibre)
 ### Descripción
-Plataforma web que permite a los usuarios consultar la cartelera de películas en exhibición, seleccionar funciones específicas, visualizar la disponibilidad de asientos y realizar reservas para asistir a proyecciones cinematográficas.
+Plataforma web que permite a los usuarios consultar la cartelera de películas en exhibición, seleccionar funciones específicas, visualizar la disponibilidad de asientos y realizar reservas para asistir a proyecciones cinematográficas. El sistema también contempla la gestión de clientes, asientos y tipos de entrada. Está diseñado para facilitar tanto la operativa del cine como la experiencia del espectador.
 
 ### Modelo
-![imagen del modelo](https://drive.google.com/file/d/1nxexQGKn5xmwuoYc4T9Xb4wF_jnmdBWZ/view?usp=sharing)
+*![imagen del modelo](https://drive.google.com/file/d/1nxexQGKn5xmwuoYc4T9Xb4wF_jnmdBWZ/view?usp=sharing)
 
 
 ## Alcance Funcional 
