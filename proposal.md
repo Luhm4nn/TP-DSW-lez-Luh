@@ -6,7 +6,8 @@
 * 53224 - Luhmann, Emiliano
 
 ### Repositorios
-* ![fullstack app]([http://hyperlinkToGihubOrGitlab](https://github.com/Luhm4nn/RepoFullStack))
+* ![fullstack app](https://github.com/Luhm4nn/RepoFullStack)
+
 
 
 ## Tema
