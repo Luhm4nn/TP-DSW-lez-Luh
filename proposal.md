@@ -11,13 +11,12 @@
 
 
 ## Tema
-Sistema de Reservas de Funciones para Cine (ButacaLibre)
+Sistema de Reservas de Funciones para Cine (Cutzy)
 ### Descripción
 Plataforma web que permite a los usuarios consultar la cartelera de películas en exhibición, seleccionar funciones específicas, visualizar la disponibilidad de asientos y realizar reservas para asistir a proyecciones cinematográficas. El sistema también contempla la gestión de clientes, asientos y tipos de entrada. Está diseñado para facilitar tanto la operativa del cine como la experiencia del espectador.
 
 ### Modelo
-Link al Draw.io: https://drive.google.com/file/d/12rpx9chfR7j6bXgelxF3n9EwD2gI6yi1/view?usp=sharing
-
+![Texto alternativo](https://github.com/Luhm4nn/RepoFullStack/blob/Developing/docs/DSW-ButacaLibre.drawio.png)
 
 ## Alcance Funcional 
 
